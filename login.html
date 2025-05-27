@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>VANTARO</h1>
+        </div>
+        <nav class="navigation">
+            <a href="index.html">Página inicial</a>
+            <a href="index.html">Sobre</a>
+            <a href="index.html">Serviços</a>
+            <a href="index.html">Contato</a>
+            <div id="btn">
+                <a href="index.html">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-log">
+        <section class="left-section">
+            <img src="./images/blue-man.png" alt="Homem Azul">
+        </section>
+
+        <section class="right-section">
+            <div class="login-container">
+                <form class="login-form" autocomplete="on">
+                    <div class="label-container">
+                        <h2>Faça seu login:</h2>
+
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" autocomplete="email"
+                            required>
+
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" placeholder="Digite sua senha"
+                            autocomplete="current-password" required>
+
+                        <button type="submit">Entrar</button>
+
+                        <div class="form-links">
+                            <p><a href="esqueci-senha.html">Esqueci minha senha</a></p>
+                            <p>Ainda não tem cadastro? <a href="cadastro.html">Crie uma conta</a></p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <div class="social-container">
+            <a href="https://github.com/palomarocha" target="_blank" class="social-btn github-btn">
+                <img src="./images/github-mark-white.png" alt="GitHub">
+            </a>
+
+            <a href="https://www.linkedin.com/in/paloma-rocha-amaral-02239031a/" target="_blank"
+                class="social-btn linkedin-btn">
+                <img src="./images/linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
+    </main>
+
+    <script src="./Js/script.js"></script>
+</body>
+
+</html>

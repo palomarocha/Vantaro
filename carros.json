@@ -1,0 +1,110 @@
+[
+  {
+    "modelo": "Fiat Mobi Like",
+    "preco": 72000,
+    "ano": 2024,
+    "cor": "Vermelho",
+    "transmissao": "Manual",
+    "tipo": "Hatch",
+    "imagem": "images/2024-fiat-mobi.jpg"
+  },
+  {
+    "modelo": "Hyundai HB20 Sense",
+    "preco": 83000,
+    "ano": 2024,
+    "cor": "Cinza",
+    "transmissao": "Manual",
+    "tipo": "Hatch",
+    "imagem": "images/hb20.png"
+  },
+  {
+    "modelo": "Renault Kwid Zen",
+    "preco": 73000,
+    "ano": 2024,
+    "cor": "Azul",
+    "transmissao": "Manual",
+    "tipo": "Hatch",
+    "imagem": "images/Renault-Kwid.png"
+  },
+  {
+    "modelo": "Volkswagen Golf",
+    "preco": 60000,
+    "ano": 2019,
+    "cor": "Prata",
+    "transmissao": "Manual",
+    "tipo": "Hatchback compacto",
+    "imagem": "images/volkswagen_golf.png"
+  },
+  {
+   "modelo": "Chevrolet Onix",
+    "preco": 72000,
+    "ano": 2018,
+    "cor": "Preto",
+    "transmissao": "Manual",
+    "tipo": "Hatch",
+    "imagem": "images/chevrolet-onix-1.0.jpg"
+  },
+  {
+    "modelo": "Fiat Uno",
+    "preco": 38000,
+    "ano": 2018,
+    "cor": "Cinza",
+    "transmissao": "Manual",
+    "tipo": "Hatch",
+    "imagem": "images/fiat.uno.png"
+  },
+  {
+     "modelo": "Fiat Palio Fire",
+    "preco": 25000,
+    "ano": 2018,
+    "cor": "Prata",
+    "transmissao": "Manual",
+    "tipo": "Hatch",
+    "imagem": "images/paliofirecapa.png"
+  },
+  {
+    "modelo": "Renault Clio",
+    "preco": 26000,
+    "ano": 2018,
+    "cor": "Branco",
+    "transmissao": "Manual",
+    "tipo": "Hatch",
+    "imagem": "images/renault-clio.png"
+  },
+  {
+    "modelo": "Renault Sandero",
+    "preco": 24000,
+    "ano": 2019,
+    "cor": "Vermelho",
+    "transmissao": "Manual",
+    "tipo": "Hatch",
+    "imagem": "images/sandero.jpg"
+  },
+  {
+    "modelo": "Chevrolet Classic LS",
+    "preco": 22000,
+    "ano": 2019,
+    "cor": "Cinza",
+    "transmissao": "Manual",
+    "tipo": "Sedan",
+    "imagem": "images/classic.jpg"
+  },
+   {
+    "modelo": "Honda Civic EXL",
+    "preco": 112000,
+    "ano": 2022,
+    "cor": "Cinza",
+    "transmissao": "Automática",
+    "tipo": "Sedan",
+    "imagem": "images/civic.jpg"
+  },
+  {
+    "modelo": "Jeep Renegade",
+    "preco": 125000,
+    "ano": 2022,
+    "cor": "Preto",
+    "transmissao": "Automática",
+    "tipo": "SUV",
+    "imagem": "images/renegade-1.jpg"
+  }
+]
