@@ -135,7 +135,7 @@ function mostrarCarros(lista) {
         `;
         container.appendChild(card);
     });
-      if (lista.length < 4) {
+      if (lista.length <=4) {
         container.style.fontSize = '17px';
         container.style.gap = '10px';
         container.querySelectorAll('.carro-card').forEach(card => {
