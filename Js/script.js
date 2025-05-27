@@ -121,8 +121,8 @@ function mostrarCarros(lista) {
             <div class="carro-info">
                 <h2>${carro.modelo}</h2>
                 <p><strong>${carro.preco.toLocaleString('pt-BR', {
-                    style: 'currency', currency: 'BRL'
-                })}</strong></p>
+            style: 'currency', currency: 'BRL'
+        })}</strong></p>
                 <p class="detalhes-carro">
                     <span>${carro.ano}</span>
                     <span class="separador">•</span>
@@ -135,6 +135,24 @@ function mostrarCarros(lista) {
         `;
         container.appendChild(card);
     });
+      if (lista.length < 4) {
+        container.style.fontSize = '17px';
+        container.style.gap = '10px';
+        container.querySelectorAll('.carro-card').forEach(card => {
+            card.style.width = '280px';
+             card.style.height =  '350px';
+            card.style.padding = '20px';
+        });
+        document.body.style.minHeight = '90vh';
+    } else {
+        container.style.fontSize = '';
+        container.style.gap = '';
+        container.querySelectorAll('.carro-card').forEach(card => {
+            card.style.width = '';
+            card.style.padding = '';
+        });
+        document.body.style.minHeight = '';
+    }
 }
 
 function aplicarFiltros() {
@@ -157,5 +175,5 @@ function aplicarFiltros() {
     });
 
     mostrarCarros(filtrados);
-
 }
+
