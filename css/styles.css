@@ -481,7 +481,7 @@ input:focus {
 }
 
 #home {
-    background-image: url(/images/car.jpg);
+    background-image: url(./images/car.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
